@@ -5,7 +5,7 @@ import emailjs from "@emailjs/browser";
 
 const variants = {
   initial: {
-    y: 500,
+    y: 400,
     opacity: 0,
   },
   animate: {
@@ -58,15 +58,15 @@ const Contact = () => {
         <motion.h1 variants={variants}>Let’s work together</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
-          <span>hello@react.dev</span>
+          <span>sukanyam21@iitk.ac.in</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Address</h2>
-          <span>Hello street New York</span>
+          <span>IIT Kanpur</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>
-          <span>+1 234 5678</span>
+          <span>9433021134</span>
         </motion.div>
       </motion.div>
       <div className="formContainer">
